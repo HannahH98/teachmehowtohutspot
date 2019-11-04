@@ -1,0 +1,321 @@
+
+	body {
+		margin:0px;
+		padding: 0px;
+		text-align: left;
+	
+		}
+
+	.recepten{
+		overflow: scroll;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	h1 {
+			font-size: 30pt ;
+			background-color: red;
+			color: white;
+			font-family: avenir, sans-serif;
+			text-align:center;
+			width: 100% ;
+			margin-top: 0px;
+			margin-bottom: 0px;
+	}
+	
+	h1.rech1 {
+			font-size: 20pt;
+			background-color: white;
+			color: red;
+			font-family: avenir, sans-serif;
+			text-align:left;
+			width:0;
+			margin-left: 30px;
+			margin-top: 10px;
+	}
+	
+	h2{
+		color: red;
+		font-family:avenir, sans-serif;
+		visibility: hidden;
+		font-size: 0pt;
+	}
+	
+	
+	h2.newword {
+		visibility: visible;
+		font-size: 20pt;
+		color: white ;
+		padding-top: 20px;
+		margin-left: 0px;
+	
+	}
+	
+	h2.congr {
+		visibility: visible;
+		font-size: 20pt;
+		color: white ;
+		margin-top: 60px;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	
+	
+	}
+	
+	h6 {
+			color: red;
+			font-family:avenir, sans-serif ;
+			text-align:left;
+			font-size: 20px;
+	}
+	
+	p {
+			 font-family: avenir,sans-serif;
+	}
+	
+	p.info1{
+		display: inline;
+		font-size: 10pt;
+		text-align:left;
+		margin-left: 30px;
+		color: red;
+	
+	}
+	
+	p.info2{
+		display: inline;
+		font-size: 10pt;
+		text-align:left;
+		margin-left: 10px;
+		color: red;
+	}
+	
+	p.congr {
+		font-size: 12pt;
+		font-style: italic;
+		color: white ;
+		margin-top: 50px;
+		margin-left: 25px;
+		margin-right: 25px;
+		text-align: center;
+	}
+	
+	
+	
+	a:link { 
+		color:red;
+		text-decoration: none;
+	 }
+	
+	a:visited {
+		color: red;
+	
+	}
+	
+	a:hover{
+		color:red;
+		text-decoration: underline;
+	}
+	
+	
+	a:active {
+		color:pink;
+	}
+	
+	a.footer1{
+		color: white;
+		font-size: 9pt;
+		margin-left: 30px;
+	}
+	
+	a.footeradd{
+		color: red;
+		font-size: 9pt;
+		margin-left: 30px;
+	}
+	
+	a.footer2{
+		color: white;
+		font-size: 9pt;
+		margin-left: 50px;
+	}
+	
+	a.footer2nl{
+		color: white;
+		font-size: 9pt;
+		margin-left: 30px;
+	}
+	
+	
+	a.addword{
+		color: white;
+		font-size: 9pt;
+		text-align: center;
+		margin-left: 40px;
+	}
+	
+	a.toevoegen{
+		color: white;
+		font-size: 9pt;
+		text-align: center;
+		margin-left: 25px;
+	}
+	
+	a.button{
+		font-size: 10pt;
+		color: red;
+		width: 250px;
+		height: 40px;
+		background-color: white;
+		font-family: avenir,sans-serif;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 230px;
+	
+	
+	}
+	
+	section {
+		height: 610px;
+		text-align: center;
+		overflow: scroll;
+	}
+	
+	img.logo{
+		height: 20px;
+		margin-top: 5px;
+		margin-left: 20px ;
+		margin-right: 20px;
+	
+	}
+	
+	
+	article {
+		background-color:red;
+	}
+	
+	article.boerenkool {
+		display: inline-block;
+		text-align:left;
+		width: 200px;
+		height: 200px;
+		margin-top: 50px;
+	}
+	
+	article.hutspot{
+		display: inline-block;
+		text-align:left;
+		width: 200px;
+		height: 200px;
+		margin-top: 30px;
+	}
+	
+	article.locked{
+		color: white;
+		display: inline-block;
+		text-align:left;
+		width: 200px;
+		height: 200px;
+		margin-top: 30px;
+	}
+	
+	article.ingredienten{
+		width: 260px;
+		margin-left: 30px;
+		height: 130px;
+	
+	
+	}
+	
+	article.bereiding{
+		width: 260px;
+		margin-top: 20px;
+		margin-left: 30px;
+		height: 120px;
+		background-color: white;
+		overflow: auto;
+	
+	
+	}
+	
+	nav {
+		width: auto;
+		height: 40px;
+		color: red;
+		font-family: avenir, sans-serif;
+		text-align: left;
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+	
+	
+	ul {
+		color:white;
+		font-size: 10pt;
+		list-style-type: disc;
+		font-family: avenir, sans-serif;
+		margin-left: 25px;
+		padding-top: 8px;
+	}
+	
+	ol {
+		font-family: avenir, sans-serif;
+		list-style-position: inside ;
+		font-size: 10pt;
+	}
+	
+	footer{
+		background-color: red;
+		color:white;	
+		font-family: avenir, sans-serif;
+		margin-top: 27px;
+	
+	}
+	
+	
+	footer.add{
+		background-color: white;
+		color:red;	
+		font-family: avenir, sans-serif;
+		margin-top: 27px;
+	
+	}
+	
+	section.addword{
+		background-color: red;
+		height: 530px;	
+		width: 250px;
+		margin-top: 30px;
+		margin-left: 40px;
+		margin-right: 50px;
+		margin-bottom: 0px ;
+	}
+	
+	p.words{
+		font-size: 15pt;
+		margin-top: 15pt;
+		text-align: left;
+	
+	}
+	
+	form {
+		margin-top: 20px;
+		margin-left: 20px ;
+		color: white;
+		height: 300px ;
+		width: 200px ;
+		text-align: left;
+	}
+	
+	input[type=button]{
+		color:red;
+		margin-top: 230px;
+		margin-left: 170px;
+		display: block;
+	}
+	
+	
+	
