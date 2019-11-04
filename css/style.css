@@ -226,6 +226,7 @@
 	}
 	
 	article.ingredienten{
+		background-color: red;
 		width: 260px;
 		margin-left: 30px;
 		height: 130px;
