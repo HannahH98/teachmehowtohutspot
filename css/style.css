@@ -95,8 +95,8 @@ footer.add{
 	background-color: white;
 	color:red;	
 	font-family: avenir, sans-serif;
-	margin-top: 27px;
-
+	height: 60px;
+	padding-top: 10px;
 }
 
 a.footer1{
@@ -186,6 +186,7 @@ article.locked{
 /*boerenkool*/
 	
 main{
+	height: 100%;
 	overflow: auto;
 
 }
@@ -260,9 +261,77 @@ article.bereiding{
 }
 
 
+/*add new word*/
+section.addword{
+	background-color: red;
+	height: 1000px;	
+	width: 70%;
+	margin-top: 70px;
+	margin-left: 120px;
+	margin-right: 50px;
+	margin-bottom: 0px ;
+}
 
+form {
+	margin-top: 20px;
+	margin-left: 20px ;
+	color: white;
+	height: 800px ;
+	width: 80%;
+	text-align: left;
+}
+
+input[type=button]{
+	color:red;
+	margin-top: 230px;
+	margin-left: 170px;
+	display: block;
+}
+
+h2.newword {
+	visibility: visible;
+	font-size: 40pt;
+	color: white ;
+	padding-top: 20px;
+	margin-left: 0px;
+
+}
+
+label{
+	font-family: avenir, sans-serif;
+	display: block;
+	font-size: 30pt;
+	margin-top: 15pt;
+	margin-left: 70px;
+	text-align: left;
+}
 	
-	h2{
+input[type=text]{
+	color:white;
+	width: 50%;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 70px;
+	display: block;
+}
+
+select {
+	background-color:white;
+	width: 50%;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 70px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+h2{
 		color: red;
 		font-family:avenir, sans-serif;
 		visibility: hidden;
@@ -270,14 +339,7 @@ article.bereiding{
 	}
 	
 	
-	h2.newword {
-		visibility: visible;
-		font-size: 20pt;
-		color: white ;
-		padding-top: 20px;
-		margin-left: 0px;
-	
-	}
+
 	
 	h2.congr {
 		visibility: visible;
@@ -364,38 +426,11 @@ article.bereiding{
 	
 
 	
-	section.addword{
-		background-color: red;
-		height: 530px;	
-		width: 250px;
-		margin-top: 30px;
-		margin-left: 40px;
-		margin-right: 50px;
-		margin-bottom: 0px ;
-	}
+
 	
-	p.words{
-		font-size: 15pt;
-		margin-top: 15pt;
-		text-align: left;
+
 	
-	}
-	
-	form {
-		margin-top: 20px;
-		margin-left: 20px ;
-		color: white;
-		height: 300px ;
-		width: 200px ;
-		text-align: left;
-	}
-	
-	input[type=button]{
-		color:red;
-		margin-top: 230px;
-		margin-left: 170px;
-		display: block;
-	}
+
 	
 	
 	
