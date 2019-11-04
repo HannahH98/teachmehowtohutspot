@@ -1,37 +1,250 @@
-	
-	body {
-		margin: 0px;
-		padding: 0px;	
-		}
+	/*algemeen*/
+body {
+	margin: 0px;
+	padding: 0px;	
+}
 
-	.recepten{
-		overflow: scroll;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+article {
+	background-color:white;
+}
+
+a:link { 
+	color:red;
+	text-decoration: none;
+ }
+		
+a:visited {
+	color: red;
+}
+		
+a:hover{
+	color:red;
+	text-decoration: underline;
+}
+		
+a:active {
+	color:pink;
+}
+
+h1 {
+	font-family: avenir, sans-serif;
+}
+		
+
+
+/*header*/
+header{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+img.menu{
+	margin-left: 2%;
+	margin-top: 0px;
+
+}
+
+img.logo{
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 8% ;
+	margin-right: 20px;
+	display: inline-flexbox;
+	align-items: center;
+}
+
+nav {
+	width: 100%;
+	height: 120px;
+	color: red;
+	font-family: avenir, sans-serif;
+	padding-left: 10px;
+	padding-top: 0px;
+}
+
+/*footer*/
+
+footer{
+	background-color: red;
+	color:white;	
+	font-family: avenir, sans-serif;
+	height: 60px;
+	padding-top: 10px;
+
+}
+
+
+footer.add{
+	background-color: white;
+	color:red;	
+	font-family: avenir, sans-serif;
+	margin-top: 27px;
+
+}
+
+a.footer1{
+	color: white;
+	font-size: 25pt;
+	margin-left: 30px;
+}
+		
+a.footeradd{
+	color: red;
+	font-size: 9pt;
+	margin-left: 30px;
+}
+
+a.footer2{
+	color: white;
+	font-size: 9pt;
+	margin-left: 50px;
+}
+
+a.footer2nl{
+	color: white;
+	font-size: 25pt;
+	margin-left: 130px;
+}
+
+a.addword{
+	color: white;
+	font-size: 9pt;
+	margin-left: 40px;
+}
+
+a.toevoegen{
+	color: white;
+	font-size: 25pt;
+	margin-left: 200px;
+
+}
+
+
+/*index*/	
+.recepten{
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1.recept {
+	font-size: 50pt ;
+	width: 100%;
+	height: 110px;
+	background-color: red;
+	color: white;
+	font-family: avenir, sans-serif;
+	text-align:center;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+article.boerenkool {
+	background-color: red;
+	display: inline-flex;
+	align-items: center;
+	height: fit-content;
+	margin-top: 50px;
+}
+
+article.hutspot{
+	display: inline-flex;
+	height: fit-content;
+	align-items: center;
+	margin-top: 50px;
+
+}
+
+article.locked{
+	height: fit-content;
+	display: inline-flex;
+	align-items: center;
+	margin-top: 50px;
+}
+
+
+
+/*boerenkool*/
 	
-	h1 {
-			font-size: 30pt ;
-			width: 200px;
-			background-color: red;
-			color: white;
-			font-family: avenir, sans-serif;
-			text-align:center;
-			margin-top: 0px;
-			margin-bottom: 0px;
-	}
-	
-	h1.rech1 {
-			font-size: 20pt;
-			background-color: white;
-			color: red;
-			font-family: avenir, sans-serif;
-			text-align:left;
-			width:0;
-			margin-left: 30px;
-			margin-top: 10px;
-	}
+main{
+	overflow: auto;
+
+}
+
+img.afbeelding{
+	width:100%;
+
+}
+
+h1.rech1 {
+	font-size: 80pt;
+	background-color: white;
+	color: red;
+	font-family: avenir, sans-serif;
+	text-align:left;
+	width:0;
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+
+p.info1{
+	font-size: 20pt;
+	text-align:left;
+	margin-left: 60px;
+	color: red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.info2{
+	margin-top: 0px;
+	font-size: 20pt;
+	text-align:left;
+	margin-left: 60px;
+	color: red;
+	margin-bottom: 0px;
+}
+
+article.ingredienten{
+	background-color: red;
+	width: 80%;
+	margin-left: 6%;
+	height: 260px;
+	margin-bottom: 40px;
+}
+
+ul {
+	color:white;
+	font-size: 20pt;
+	list-style-type: disc;
+	font-family: avenir, sans-serif;
+	margin-left: 25px;
+	padding-top: 15px;
+}
+
+ol {
+	font-family: avenir, sans-serif;
+	list-style-position: inside ;
+	font-size: 20pt;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+
+article.bereiding{
+	width: 80%;
+	margin-top: 20px;
+	margin-left: 30px;
+	height: 120px;
+	background-color: white;
+}
+
+
+
 	
 	h2{
 		color: red;
@@ -73,22 +286,9 @@
 			 font-family: avenir,sans-serif;
 	}
 	
-	p.info1{
-		display: inline;
-		font-size: 10pt;
-		text-align:left;
-		margin-left: 30px;
-		color: red;
+
 	
-	}
-	
-	p.info2{
-		display: inline;
-		font-size: 10pt;
-		text-align:left;
-		margin-left: 10px;
-		color: red;
-	}
+
 	
 	p.congr {
 		font-size: 12pt;
@@ -102,64 +302,12 @@
 	
 	
 	
-	a:link { 
-		color:red;
-		text-decoration: none;
-	 }
-	
-	a:visited {
-		color: red;
-	
-	}
-	
-	a:hover{
-		color:red;
-		text-decoration: underline;
-	}
 	
 	
-	a:active {
-		color:pink;
-	}
-	
-	a.footer1{
-		color: white;
-		font-size: 9pt;
-		margin-left: 30px;
-	}
-	
-	a.footeradd{
-		color: red;
-		font-size: 9pt;
-		margin-left: 30px;
-	}
-	
-	a.footer2{
-		color: white;
-		font-size: 9pt;
-		margin-left: 50px;
-	}
-	
-	a.footer2nl{
-		color: white;
-		font-size: 9pt;
-		margin-left: 30px;
-	}
+
 	
 	
-	a.addword{
-		color: white;
-		font-size: 9pt;
-		text-align: center;
-		margin-left: 40px;
-	}
-	
-	a.toevoegen{
-		color: white;
-		font-size: 9pt;
-		text-align: center;
-		margin-left: 25px;
-	}
+
 	
 	a.button{
 		font-size: 10pt;
@@ -182,104 +330,23 @@
 		overflow: scroll;
 	}
 	
-	img.logo{
-		height: 20px;
-		margin-top: 5px;
-		margin-left: 20px ;
-		margin-right: 20px;
-	
-	}
-	
-	
-	article {
-		background-color:white;
-	}
-	
-	article.boerenkool {
-		background-color: red;
-		display: inline-flex;
-		align-items: center;
-		height: fit-content;
-		margin-top: 50px;
-	}
-	
-	article.hutspot{
-		display: inline-flex;
-		height: fit-content;
-		align-items: center;
-		margin-top: 50px;
 
-	}
-	
-	article.locked{
-		height: fit-content;
-		display: inline-flex;
-		align-items: center;
-		margin-top: 50px;
-	}
-	
-	article.ingredienten{
-		background-color: red;
-		width: 260px;
-		margin-left: 30px;
-		height: 130px;
 	
 	
-	}
+
 	
-	article.bereiding{
-		width: 260px;
-		margin-top: 20px;
-		margin-left: 30px;
-		height: 120px;
-		background-color: white;
-		overflow: auto;
+
 	
+
 	
-	}
+
 	
-	nav {
-		width: 100%;
-		height: 40px;
-		color: red;
-		font-family: avenir, sans-serif;
-		text-align: left;
-		padding-left: 10px;
-		padding-top: 10px;
-	}
+
 	
 	
-	ul {
-		color:white;
-		font-size: 10pt;
-		list-style-type: disc;
-		font-family: avenir, sans-serif;
-		margin-left: 25px;
-		padding-top: 8px;
-	}
+
 	
-	ol {
-		font-family: avenir, sans-serif;
-		list-style-position: inside ;
-		font-size: 10pt;
-	}
-	
-	footer{
-		background-color: red;
-		color:white;	
-		font-family: avenir, sans-serif;
-		margin-top: 27px;
-	
-	}
-	
-	
-	footer.add{
-		background-color: white;
-		color:red;	
-		font-family: avenir, sans-serif;
-		margin-top: 27px;
-	
-	}
+
 	
 	section.addword{
 		background-color: red;
