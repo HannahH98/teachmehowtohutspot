@@ -13,6 +13,7 @@
 	
 	h1 {
 			font-size: 30pt ;
+			width: 200px;
 			background-color: red;
 			color: white;
 			font-family: avenir, sans-serif;
