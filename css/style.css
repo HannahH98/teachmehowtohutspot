@@ -196,6 +196,7 @@
 	}
 	
 	article.boerenkool {
+		background-color: red;
 		display: inline-flex;
 		align-items: center;
 		height: fit-content;
