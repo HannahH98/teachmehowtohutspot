@@ -1,17 +1,7 @@
-
-	html{
-		width: 100vw;
-		height: 100vh;
-
-	}
 	
 	body {
-		width: 375px;
-		height: 667px;
-		margin:0px;
-		padding: 0px;
-		text-align: left;
-	
+		margin: 0px;
+		padding: 0px;	
 		}
 
 	.recepten{
@@ -187,7 +177,7 @@
 	}
 	
 	section {
-		height: 610px;
+		height: 100%;
 		text-align: center;
 		overflow: scroll;
 	}
@@ -208,6 +198,7 @@
 	article.boerenkool {
 		display: inline-flex;
 		align-items: center;
+		height: fit-content;
 		margin-top: 50px;
 	}
 	
@@ -220,6 +211,7 @@
 	}
 	
 	article.locked{
+		height: fit-content;
 		display: inline-flex;
 		align-items: center;
 		margin-top: 50px;
