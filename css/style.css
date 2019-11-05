@@ -85,8 +85,8 @@ footer{
 	background-color: red;
 	color:white;	
 	font-family: avenir, sans-serif;
-	height: 60px;
-	padding-top: 10px;
+	height: 70px;
+	padding-top: 25px;
 	margin-top: 40px;
 
 }
@@ -253,8 +253,14 @@ ol {
 	font-size: 20pt;
 	margin-bottom: 20px;
 	margin-top:10px;
+	
 }
 
+li.afstand{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
 article.bereiding{
 	width: 80%;
 	margin-top: 20px;
@@ -268,9 +274,9 @@ article.bereiding{
 section.addword{
 	background-color: red;
 	height: 1000px;	
-	width: 70%;
+	width: 60%;
 	margin-top: 100px;
-	margin-left: 150px;
+	margin-left: 200px;
 	margin-right: 50px;
 	margin-bottom: 0px ;
 }
@@ -290,7 +296,7 @@ input[type=button]{
 	color:red;
 	height: 40px;
 	width: 20%;
-	margin-top: 230px;
+	margin-top: 340px;
 	margin-left: 70px;
 	display: block;
 }
