@@ -312,7 +312,7 @@ form {
 	text-align: left;
 }
 
-input[type=button]{
+input[type=submit]{
 	background-color: white;
 	font-size: 20pt;
 	color:red;
