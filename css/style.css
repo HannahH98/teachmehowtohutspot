@@ -78,7 +78,6 @@ img.logo{
 	margin-top: 10px;
 	margin-left: 10% ;
 	margin-right: 20px;
-	display: inline-flexbox;
 	align-items: center;
 }
 
@@ -122,6 +121,8 @@ footer.add{
 	margin-top:170px;
 	padding-top: 10px;
 }
+
+
 
 a.footer1{
 	color: white;
@@ -460,7 +461,74 @@ img.menuinklap{
 
 }
 
+/*my words */
+main.tablemywords{
+	height: 970px;
+	margin-bottom: 0px;
 
+}
+
+table{
+	width: 50%;
+	margin-left: 260px;
+	margin-top: 200px;
+	text-align: left;
+	font-family: avenir, sans-serif;
+
+}
+
+footer.learned{
+	height: 300px;
+
+}
+
+tr{
+	margin-bottom: 50px;
+	height: 30px;
+}
+
+th.engels{
+	font-family:avenir, sans-serif;
+	color: red;
+	font-size: 35pt;
+	margin-right: 10px;
+}
+
+th.nederlands{
+	font-family:avenir, sans-serif;
+	color: red;
+	font-size: 35pt;
+}
+
+td.woord{
+	font-family:avenir, sans-serif;
+	color: red;
+	font-size: 30pt;
+}
+
+td.meervoud{
+	font-family: avenir, sans-serif;
+	font-size: 20pt;
+}
+
+td.uitspraak{
+	font-family: avenir, sans-serif;
+	font-size: 25pt;
+}
+
+p.learnedwords{
+	font-family: avenir, sans-serif ;
+	text-align: center;
+	font-size: 40pt;
+	color: white;
+}
+
+p.moretounlock{
+	font-family: avenir, sans-serif ;
+	text-align: center;
+	font-size: 30pt;
+	color: white;
+}
 
 	
 	
